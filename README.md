@@ -1,2 +1,5 @@
 # CDTS
-Comet Dust Trails Simulation
+TODO
+1)CPP ENGINE (SIMULATION)
+2)MODELS GL SHADER FILES
+
