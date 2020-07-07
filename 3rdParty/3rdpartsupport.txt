@@ -1,2 +1,0 @@
-to enable glew and glfw library support,will be adding cmake support from main folder
-
