@@ -21,5 +21,14 @@ d) The rosetta mission has shown the comets do indeed interact with solar wind,a
 for the project will be to implement this
 
 e)Since the compute engine will be implemented in a modularized manner,adding pybind11 to  
-make a python library out of the existing implementation with minimal changes to the code
+make a python library out of the existing implementation with minimal changes to the code  
+
+The code would possibly look like this:  
+ class model:  
+ model.planet("name","distance","Velocity","starting point","mass")//planet 1  
+ model.planet("name","distance","Velocity","starting point","mass")//planet 2  
+ model.comet(//comet properties)  
+ model.star(//star properties)  
+ 
+ model.compute(//to simulate and output to bin files of the simulation results)
 
