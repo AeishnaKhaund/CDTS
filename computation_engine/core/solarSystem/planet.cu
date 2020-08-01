@@ -3,3 +3,8 @@
 //
 
 #include "planet.cuh"
+
+int main()
+{
+  return 0;
+}
